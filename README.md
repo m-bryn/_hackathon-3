@@ -7,7 +7,7 @@ __Задача два__
     LGBMRegressor 
     
 Итог: [файл с предиктами]()
->Файл с кодом: prediction.ipynb
+>Файл с кодом: main/prediction.ipynb
 
 
 
