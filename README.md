@@ -32,5 +32,6 @@ __Задача три__
 Оптимизационная задача, использование симплекс-метода
 
 ![Замощение сменами для региона 0 (Понедельник)](https://github.com/m-bryn/_hackathon-3/raw/main/imagine.png)
+
 Итог: [simplex_method.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
 >Файл с кодом: simplex_method.ipynb
