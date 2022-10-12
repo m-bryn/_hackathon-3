@@ -25,7 +25,7 @@ __Прогноз__
 Итог: [prediction.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/prediction.ipynb)
 >Файл с кодом: prediction.ipynb
 
-
+<br>
 
 __Замощение сменами__
 
