@@ -6,11 +6,11 @@
 
 <img src="https://img.shields.io/badge/-Python-488BBE.svg?logo=python&logoColor=FFE873&logoWidth=20&style=flat&textColor=white">
 
-<img src="https://img.shields.io/github/languages/top/m-bryn/_hackathon-3.svg?&style=flat">
+<img src="https://img.shields.io/github/languages/top/m-bryn/_hackathon-3.svg?color=488BBE&style=flat">
 
-<img src="https://img.shields.io/github/issues/m-bryn/_hackathon-3.svg?&style=flat">
+<img src="https://img.shields.io/github/issues/m-bryn/_hackathon-3.svg?color=488BBE&style=flat">
 
-<img src="https://img.shields.io/github/stars/m-bryn/_hackathon-3.svg?style=flat">
+<img src="https://img.shields.io/github/stars/m-bryn/_hackathon-3.svg?color=488BBE&style=flat">
 
 </p>
 
