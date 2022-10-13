@@ -22,7 +22,7 @@ __Прогноз__
 Работаем со столбцами 'date', достанем столбец 'hour', 'weekday' в таблице. Делаем предсказания для каждого отдельного дня недели с разбивкой на зоны. Наилучший прогноз получается, если тренировать модель на столбце 'hour'. Для прогнозирования и поиска оптимального решения (по соотношению кол-ва партнеров к кол-ву заказов как целевой переменной) используем *LGBMRegressor* 
     
 Итог: получаем файлы pickles с предиктами
->Файл с кодом: prediction.ipynb
+>Файл с кодом: [prediction.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
 
 <br>
 
@@ -32,5 +32,5 @@ __Замощение сменами__
 
 ![Замощение сменами для региона 0 (Понедельник)](https://github.com/m-bryn/_hackathon-3/blob/main/imagine.png)
 
-Итог: [simplex_method.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
->Файл с кодом: simplex_method.ipynb
+Итог: simplex_method.ipynb
+>Файл с кодом: [simplex_method.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
