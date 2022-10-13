@@ -31,5 +31,6 @@ __Замощение сменами__
 Здесь мы решаем оптимизационную задачу, используя симплекс-метод
 
 ![Замощение сменами для региона 0 (Понедельник)](https://github.com/m-bryn/_hackathon-3/blob/main/imagine.png)
+<br>
 Итог: получаем файлы pickles с замощением для всех дней недели - всех регионов
 >Файл с кодом: [simplex_method.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
