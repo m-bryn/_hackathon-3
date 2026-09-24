@@ -2,8 +2,6 @@
 
 <p align="center">
 
-
-
 <img src="https://img.shields.io/badge/-Python-488BBE.svg?logo=python&logoColor=FFE873&logoWidth=20&style=flat&textColor=white">
 
 <img src="https://img.shields.io/github/languages/top/m-bryn/_hackathon-3.svg?color=488BBE&style=flat">
@@ -14,23 +12,23 @@
 
 </p>
 
-## Прогноз спроса и планирование рабочих смен
+## Demand Forecasting and Shift Scheduling
 
 
-__Прогноз__ 
+__Forecasting__
 
-Работаем со столбцами 'date', достанем столбец 'hour', 'weekday' в таблице. Делаем предсказания для каждого отдельного дня недели с разбивкой на зоны. Наилучший прогноз получается, если тренировать модель на столбце 'hour'. Для прогнозирования и поиска оптимального решения (по соотношению кол-ва партнеров к кол-ву заказов как целевой переменной) используем *LGBMRegressor* 
-    
-Итог: получаем файлы pickles с предиктами
->Файл с кодом: [prediction.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
+We work with the 'date' column and extract the 'hour' and 'weekday' columns from the table. Predictions are made for each specific day of the week, broken down by zone. The best forecast is achieved by training the model using the 'hour' column. We use *LGBMRegressor* to generate forecasts and find the optimal solution (using the ratio of partners to orders as the target variable).
+
+Result: pickle files containing predictions.
+>Code file: [prediction.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
 
 <br>
 
-__Замощение сменами__
+__Shift Tiling__
 
-Здесь мы решаем оптимизационную задачу, используя симплекс-метод
+Here, we solve an optimization problem using the simplex method.
 
-![Замощение сменами для региона 0 (Понедельник)](https://github.com/m-bryn/_hackathon-3/blob/main/imagine.png)
+![Shift tiling for region 0 (Monday)](https://github.com/m-bryn/_hackathon-3/blob/main/imagine.png)
 <br>
-Итог: получаем файлы pickles с замощением для всех дней недели - всех регионов
->Файл с кодом: [simplex_method.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
+Result: pickle files containing the tiling configurations for all days of the week and all regions.
+>Code file: [simplex_method.ipynb](https://github.com/m-bryn/_hackathon-3/blob/main/simplex_method.ipynb)
